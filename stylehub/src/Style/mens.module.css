@@ -1,0 +1,42 @@
+.products{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    margin-top:20px;
+}
+.sidebar{
+    position:absolute;
+    top:100px;
+    left:30px;
+    width:250px;
+    text-align: left;
+    margin:auto;
+    padding:20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+.first{
+    color:#f2439d;
+    
+}
+.main{
+    position:relative;
+    left:260px;
+    width:1080px;
+    
+    padding:20px;
+    cursor: pointer;
+    
+}
+.child{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+    
+}
+.loop{
+    padding:20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

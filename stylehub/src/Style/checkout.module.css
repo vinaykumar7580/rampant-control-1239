@@ -1,0 +1,31 @@
+.parentdiv{
+    display:flex;
+    
+
+}
+.childdiv1{
+    width:50%;
+    
+    
+}
+.childdiv2{
+    width:50%;
+    text-align: left;
+    margin:auto;
+    padding:10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+}
+.childp{
+    border:2px solid black;
+    padding:7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.childbutton{
+    background-color: #99cc33;
+    color:white;
+    font-size: 20px;
+    padding:5px 70px;
+    font-weight: bold;
+}
