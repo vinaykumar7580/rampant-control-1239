@@ -4,6 +4,7 @@ import Login from "./Login"
 import Mens from "./Mens"
 import Womens from "./Womens"
 import Checkout from "./Checkout"
+import Cart from "./Cart"
 
 function AllRoutes(){
     return(
@@ -11,6 +12,7 @@ function AllRoutes(){
             <Route path="/" element={<Home/>}/>
             <Route path="/login" element={<Login/>}/>
             <Route path="/mens" element={<Mens/>}/>
+            <Route path="/cart" element={<Cart/>}/>
             <Route path="/womens" element={<Womens/>}/>
             <Route path="/checkout/:id" element={<Checkout/>}/>
         </Routes>
