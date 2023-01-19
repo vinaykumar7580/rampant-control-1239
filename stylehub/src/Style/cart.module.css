@@ -1,0 +1,29 @@
+
+.boxparent{
+    display:flex;
+
+}
+.boxchild1{
+    width:60%;
+    
+    
+}
+.boxchild2{
+    width:40%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding:30px;
+}
+.flexchild{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding:10px;
+}
+.free{
+    color:white;
+    margin:auto;
+    background-color: #99cc33;
+    text-align: center;
+    padding:5px;
+    border-radius:5px;
+    font-weight: bold;
+
+}

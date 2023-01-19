@@ -31,12 +31,15 @@ import {
 
 function Checkout(){
     const [sdata, setSdata]=useState({})
-    const [cart,setCart]=useState([])
+    // const [cart,setCart]=useState([])
+
+    let cart=[]
 
     const toast = useToast()
 
     const handleClick=()=>{
-        setCart([...cart,sdata])
+        // setCart([...cart,sdata])
+        cart.push(sdata)
         toast({
             title: 'Add to Cart',
             description: "Your Product Added in Cart!.",
@@ -121,6 +124,9 @@ function Checkout(){
                     <p>M.R.P. inclusive of all taxes</p>
                     <br />
                     <button onClick={handleClick} className={style.childbutton}>Add To Cart</button>
+                    <br />
+                    <br />
+                    <Link to="/cart"><button className={style.childbutton}>Check $Cart</button></Link>
                     <br />
                     <br />
                     <Box>
