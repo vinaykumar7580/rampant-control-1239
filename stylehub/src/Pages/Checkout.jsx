@@ -5,6 +5,8 @@ import {useParams,Link} from "react-router-dom"
 import axios from "axios"
 import style from "../Style/checkout.module.css"
 //import {getsingleData} from "../Components/api"
+
+
 import {Box,Breadcrumb,BreadcrumbItem,BreadcrumbLink,Flex,Img,Text,Button,Radio} from "@chakra-ui/react";
 import {
     Table,
@@ -28,7 +30,7 @@ import {
   import { useToast } from '@chakra-ui/react'
 
 
-
+//checkout page
 function Checkout(){
     const [sdata, setSdata]=useState({})
     // const [cart,setCart]=useState([])
