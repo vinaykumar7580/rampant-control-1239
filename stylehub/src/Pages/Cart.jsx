@@ -7,6 +7,7 @@ import {Input,Text,Stack,Radio,RadioGroup, Button, useDisclosure} from "@chakra-
 import { useToast } from '@chakra-ui/react'
 import style from "../Style/cart.module.css"
 
+//cart page
 function Cart(){
     const [quantity,setQuantity]=useState(1)
     const { isOpen, onOpen, onClose } = useDisclosure()
