@@ -4,6 +4,7 @@ import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import Men from "../Components/Men"
 import Women from "../Components/Women"
 
+//home page
 function Home(){
     return(
         <div>
